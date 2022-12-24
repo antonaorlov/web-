@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(12,203,255);
+}
+
+#my-image {
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Set the bottom position to 0 */
+    right: 0; /* Set the right position to 0 */
+    width: 75%;
+  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    
+  }
+
+.nav{
+background-color:rgb(12,203,255);
+}
+
+.nav-link:hover{
+    background-color: blue;
+}
+
+.head{
+    border-color: rgb(89, 226, 112);
+    border: 2em dashed white;
+	border-width: 8px;
+    background-color: #F68122; 
+	margin-left: auto;
+    margin-right: auto;
+    padding:1rem;
+    border-end-end-radius: 50px 20px;
+    box-shadow: 5px 5px 9px black;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
